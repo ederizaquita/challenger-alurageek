@@ -4,7 +4,7 @@
   "description": "AluraGeek project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "son-server --watch ./db.json --port 3000"
   },
   "repository": {
     "type": "git",
